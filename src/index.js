@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import registerServiceWorker from './registerServiceWorker';
 
 class Clock extends React.Component {
   constructor(props) {
@@ -14,7 +13,7 @@ class Clock extends React.Component {
   }
 
   componentWillUnmont() {
-    
+
   }
 
   render() {
